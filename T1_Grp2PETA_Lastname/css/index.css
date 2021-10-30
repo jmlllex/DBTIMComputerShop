@@ -1,0 +1,140 @@
+.video-bg {
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	filter: brightness(50%) hue-rotate(240deg);
+}
+
+.home-logo {
+	margin: auto;
+	display: block;
+	margin-top: 15vh;
+	width: 40vw;
+}
+
+.motto {
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 15px black;
+	font-weight: normal;
+}
+
+.parts {
+	display: flex;
+	justify-content: center;
+	width: auto;
+	flex-wrap: wrap;
+}
+
+.parts div {
+	text-align: center;
+	padding: 20px;
+	font-size: 12px;
+	border: 1px solid #04aa6d44;
+	border-style: none solid;
+	border-radius: 5px;
+	width: 80px;
+	height: 80px;
+	margin: 5px;
+}
+
+.parts a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 0 15px black;
+	transition: transform 50ms ease-in-out;
+}
+
+.parts a:hover {
+	transform: scale(1.1);
+}
+
+.content {
+	color: black;
+	background-color: white;
+	margin-top: 30vh;
+	padding: 80px 0;
+}
+
+.content-cards {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.content h2 {
+	text-align: left;
+	margin: auto;
+	margin-top: 40px;
+	padding: 30px;
+	width: 900px;
+}
+
+.card {
+	color: black;
+	padding: 20px;
+	box-shadow: 0 0 20px #44444466;
+	border-radius: 10px;
+	margin: 10px;
+	height: 300px;
+	width: 250px;
+}
+
+.content-cards a {
+	color: black;
+	text-decoration: none;
+	transition: transform 50ms ease-in-out;
+}
+
+.content-cards a:hover {
+	transform: scale(1.05);
+}
+
+.card-products {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.card-products h3 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.price {
+	text-align: center;
+	font-family: monospace;
+	font-weight: bold;
+	border: 2px solid black;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin: 0;
+}
+
+.sale {
+	text-decoration: line-through;
+	margin: 0;
+	color: gray;
+	font-family: monospace;
+	font-size: 12px;
+}
+
+.card-products img {
+	width: 150px;
+	height: 150px;
+}
+
+.card-products span {
+	background-color: black;
+	color: white;
+	padding: 2px 6px;
+	border-radius: 5px;
+	margin-right: 5px;
+	font-size: 15px;
+}

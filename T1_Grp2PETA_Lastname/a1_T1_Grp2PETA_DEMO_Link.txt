@@ -1,0 +1,7 @@
+Demo vid: https://drive.google.com/file/d/1G0gi4zzbAsn4cBDY-17Um0pUjHnybHqk/view?usp=sharing
+Home page: Main_page.php
+
+Prodcut pages
+Desktop Builder: builder.php
+Individual Product page: Product.php
+Pre-built PCs page: prebuild.php

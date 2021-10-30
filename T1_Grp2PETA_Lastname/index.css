@@ -1,0 +1,116 @@
+{
+
+    font-family:garamond;
+    font-weight: normal;
+    font-style:normal;
+    
+}
+
+.nav{
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+    color: white;
+    padding: 10px;
+    margin-right: .100rem;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.nav .title a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul a{
+    text-decoration: none;
+
+}
+.nav li .sg{
+    color: yellow;
+}
+.title{
+    display: block;
+    color: white;
+    margin: .9rem;
+    font-size: 300px; 
+    
+}
+body{
+    background-color: green;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+h3{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.pic{
+    display: block;
+    justify-content: left;
+    height: auto;
+}
+.imageb{
+    box-shadow: 0px 0px 20px black;
+    height: 10em;
+    border-radius: 10px;
+    margin: 10px;
+}
+.iocont{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.picio{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
+}
+.plexdiv,.forumsdiv,.booksdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.forumsdiv,.booksdiv{
+    margin-top: 100px;
+}
+
+.majdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.maj{
+    display: flex;
+}
+.majcon{
+    font-size: 50px;
+    color: white;
+}
+.footerdiv{
+    margin-top: 100px;
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    justify-content: space-evenly;

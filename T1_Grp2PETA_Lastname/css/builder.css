@@ -1,0 +1,67 @@
+.main {
+	display: flex;
+	margin-top: 15vh;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.recommended, .builder, .affordable {
+	display: inline-block;
+	margin: 0;
+	padding: 20px;
+	height: 100%;
+}
+
+.builder {
+	width: 500px;
+}
+
+.recommended, .affordable {
+	box-shadow: 0 0 20px #44444466;
+	border-radius: 10px;
+	width: 300px;
+}
+
+.recommended div, .affordable div {
+	box-shadow: 0 0 20px #44444466;
+	border-radius: 10px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.component {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+}
+
+.dropdown {
+	padding: 15px;
+	border: 0;
+	box-shadow: 0 0 20px #44444466;
+	border-radius: 10px;
+	width: 350px;
+	margin: 20px;
+}
+
+.end {
+	margin: 60px;
+}
+
+.cost {
+	font-size: 15px;
+	padding: 15px;
+}
+
+.cart {
+	text-decoration: none;
+	background-color: #04aa6d;
+	color: white;
+	padding: 15px 35px;
+	border-radius: 10px;
+}
+
+.cart:hover {
+	text-decoration: underline;
+}
