@@ -8,7 +8,7 @@
 
 <div class="nav">
             <ul class="navsub">
-                <a href="Main_page.php"><li>Home</li></a>
+                <a href="Main_page.php"><li>Home1</li></a>
                 <a href="builder.php"><li>Desktop Builder</li></a>
                 <a href="Product.php"><li>Products</li></a>
                 <a href="prebuild.php"><li>Pre-Built PCs</li></a>
